@@ -1,5 +1,5 @@
-def introduction(name, programming_language)
-  puts "Hi, my name is #{name} and I am learning to program in #{programming_language}."
+def introduction_with_language(name, language)
+  puts "Hi, my name is #{name} and I am learning to program in #{language}."
 end
 
-puts introduction("dan", "Ember.js")
+puts introduction_with_language("dan", "Ember.js")
